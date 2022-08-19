@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Home.css";
 import "../../common/header/Header";
+import Header from "../../common/header/Header.js";
 import SingleLineImageList from "./movieList";
 import moviesData from "../../common/moviesData";
 import TitlebarImageList from "./leftImageList";
