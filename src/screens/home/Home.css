@@ -1,0 +1,36 @@
+.heading{
+    display: block;
+    background-color: #ff9999;
+    padding: 8px;
+    text-align: center;
+    font-size: 1rem;
+}
+.flex-container{
+    display: flex;
+}
+.left{
+    width: 76%;
+    /* display: flex; */
+    margin: 16px;
+}
+.right{
+    width: 24%;
+    margin: 16px;
+}
+
+.leftListItem {
+    margin : 20px;
+    cursor:pointer;
+}
+.loginbtn{
+    float: right;
+}
+
+.hiddenbtn{
+    display: none;
+}
+
+.image{
+    object-fit: contain;
+    width: 100%;
+}
